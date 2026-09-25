@@ -1,0 +1,24 @@
+{
+  "priority": [
+    "Brazil Serie A",
+    "Brazil Serie B",
+    "Brazil Cup",
+    "Libertadores",
+    "Sudamericana",
+    "Norway",
+    "Bundesliga",
+    "2. Bundesliga",
+    "La Liga",
+    "Premier League",
+    "Netherlands",
+    "Iceland",
+    "Switzerland",
+    "France"
+  ],
+  "global_radar": {
+    "enabled": true,
+    "scan_non_priority_competitions": true,
+    "minimum_data_quality": 70,
+    "minimum_signal_strength": 68
+  }
+}

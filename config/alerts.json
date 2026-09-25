@@ -1,0 +1,17 @@
+{
+  "pre_match": {
+    "enabled": true
+  },
+  "live": {
+    "enabled": true,
+    "cooldown_minutes": 5,
+    "minimum_signal_strength": 72,
+    "minimum_probability": 0.70
+  },
+  "lineup_change": {
+    "enabled": true
+  },
+  "injury_news": {
+    "enabled": true
+  }
+}

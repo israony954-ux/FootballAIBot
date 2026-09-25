@@ -1,0 +1,319 @@
+[
+  {
+    "fixture": {
+      "id": 1628953,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-25T00:00:00+00:00",
+      "timestamp": 1790294400,
+      "periods": {
+        "first": 1790294400,
+        "second": 1790298000
+      },
+      "venue": {
+        "id": 18580,
+        "name": "Estadio Alejandro Serrano Aguilar",
+        "city": "Cuenca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 917,
+      "name": "Copa Ecuador",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/917.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2025,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1986,
+        "name": "Gualaceo SC",
+        "logo": "https://media.api-sports.io/football/teams/1986.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1153,
+        "name": "Independiente del Valle",
+        "logo": "https://media.api-sports.io/football/teams/1153.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "events": [
+      {
+        "time": {
+          "elapsed": 31,
+          "extra": null
+        },
+        "team": {
+          "id": 1153,
+          "name": "Independiente del Valle",
+          "logo": "https://media.api-sports.io/football/teams/1153.png"
+        },
+        "player": {
+          "id": 16480,
+          "name": "D. Reasco"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 45,
+          "extra": 4
+        },
+        "team": {
+          "id": 1153,
+          "name": "Independiente del Valle",
+          "logo": "https://media.api-sports.io/football/teams/1153.png"
+        },
+        "player": {
+          "id": 353989,
+          "name": "E. Pata"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 49,
+          "extra": null
+        },
+        "team": {
+          "id": 1986,
+          "name": "Gualaceo SC",
+          "logo": "https://media.api-sports.io/football/teams/1986.png"
+        },
+        "player": {
+          "id": null,
+          "name": null
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 56,
+          "extra": null
+        },
+        "team": {
+          "id": 1153,
+          "name": "Independiente del Valle",
+          "logo": "https://media.api-sports.io/football/teams/1153.png"
+        },
+        "player": {
+          "id": null,
+          "name": null
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 66,
+          "extra": null
+        },
+        "team": {
+          "id": 1153,
+          "name": "Independiente del Valle",
+          "logo": "https://media.api-sports.io/football/teams/1153.png"
+        },
+        "player": {
+          "id": 16480,
+          "name": "D. Reasco"
+        },
+        "assist": {
+          "id": 449151,
+          "name": "Y. Vasquez"
+        },
+        "type": "subst",
+        "detail": "Substitution 1",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 68,
+          "extra": null
+        },
+        "team": {
+          "id": 1153,
+          "name": "Independiente del Valle",
+          "logo": "https://media.api-sports.io/football/teams/1153.png"
+        },
+        "player": {
+          "id": 311347,
+          "name": "M. Perello"
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Normal Goal",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 1153,
+          "name": "Independiente del Valle",
+          "logo": "https://media.api-sports.io/football/teams/1153.png"
+        },
+        "player": {
+          "id": 311347,
+          "name": "M. Perello"
+        },
+        "assist": {
+          "id": 582247,
+          "name": "S. Gongora"
+        },
+        "type": "subst",
+        "detail": "Substitution 2",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 71,
+          "extra": null
+        },
+        "team": {
+          "id": 1153,
+          "name": "Independiente del Valle",
+          "logo": "https://media.api-sports.io/football/teams/1153.png"
+        },
+        "player": {
+          "id": 353989,
+          "name": "E. Pata"
+        },
+        "assist": {
+          "id": 653980,
+          "name": "E. Quintero"
+        },
+        "type": "subst",
+        "detail": "Substitution 3",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 76,
+          "extra": null
+        },
+        "team": {
+          "id": 1153,
+          "name": "Independiente del Valle",
+          "logo": "https://media.api-sports.io/football/teams/1153.png"
+        },
+        "player": {
+          "id": null,
+          "name": null
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Goal",
+        "detail": "Missed Penalty",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 87,
+          "extra": null
+        },
+        "team": {
+          "id": 1153,
+          "name": "Independiente del Valle",
+          "logo": "https://media.api-sports.io/football/teams/1153.png"
+        },
+        "player": {
+          "id": 184916,
+          "name": "R. Briones"
+        },
+        "assist": {
+          "id": 354955,
+          "name": "Y. Ochoa"
+        },
+        "type": "subst",
+        "detail": "Substitution 4",
+        "comments": null
+      },
+      {
+        "time": {
+          "elapsed": 88,
+          "extra": null
+        },
+        "team": {
+          "id": 1986,
+          "name": "Gualaceo SC",
+          "logo": "https://media.api-sports.io/football/teams/1986.png"
+        },
+        "player": {
+          "id": null,
+          "name": null
+        },
+        "assist": {
+          "id": null,
+          "name": null
+        },
+        "type": "Card",
+        "detail": "Yellow Card",
+        "comments": null
+      }
+    ],
+    "lineups": [],
+    "statistics": [],
+    "players": []
+  }
+]

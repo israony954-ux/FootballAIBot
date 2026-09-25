@@ -1,0 +1,5 @@
+*.bak
+*.bak2
+*.save
+__pycache__/
+*.pyc
