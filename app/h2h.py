@@ -36,6 +36,30 @@ def calcular_peso_recencia(data_jogo, meia_vida_dias=365):
 
 
 def buscar_h2h(id_time1, id_time2, limite=10):
+    try:
+        from app.history import carregar_historico
+
+        historico = carregar_historico()
+        jogos_locais = []
+
+        for jogo in historico:
+            times = jogo.get("teams", {})
+            casa = times.get("home", {}).get("id")
+            fora = times.get("away", {}).get("id")
+
+            if {casa, fora} == {id_time1, id_time2}:
+                jogos_locais.append(jogo)
+
+        jogos_locais.sort(
+            key=lambda jogo: jogo.get("fixture", {}).get("date", ""),
+            reverse=True
+        )
+
+        if jogos_locais:
+            return jogos_locais[:limite]
+    except Exception:
+        pass
+
     api = FootballAPI()
 
     jogos = api._get(
