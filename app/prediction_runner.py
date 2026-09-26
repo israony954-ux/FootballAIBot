@@ -107,15 +107,13 @@ def main():
     for jogo in futuros[:4]:
         try:
             gerar_previsao(jogo)
-
         except Exception as erro:
             print()
-            print(
-                "ERRO NO JOGO:",
-                jogo.get("fixture", {}).get("id")
-            )
+            print("ERRO NO JOGO:", jogo.get("fixture", {}).get("id"))
             print("MOTIVO:", erro)
-
+            if "API FOOTBALL LIMIT" in str(erro) or "limite de requisicoes atingido" in str(erro):
+                print("API LIMITADA. Encerrando processamento.")
+                break
 
 if __name__ == "__main__":
     main()

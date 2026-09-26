@@ -2,3 +2,7 @@
 *.save*
 __pycache__/
 *.pyc
+
+data/api cache/
+
+data/api cache/*

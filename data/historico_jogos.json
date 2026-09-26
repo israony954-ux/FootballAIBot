@@ -315,5 +315,4135 @@
     "lineups": [],
     "statistics": [],
     "players": []
+  },
+  {
+    "fixture": {
+      "id": 1168660,
+      "referee": "M. Homa",
+      "timezone": "UTC",
+      "date": "2024-11-02T21:00:00+00:00",
+      "timestamp": 1730581200,
+      "periods": {
+        "first": 1730581200,
+        "second": 1730584800
+      },
+      "venue": {
+        "id": 20500,
+        "name": "Inter&Co Stadium",
+        "city": "Orlando, Florida"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 19",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3000,
+        "name": "Orlando Pride W",
+        "logo": "https://media.api-sports.io/football/teams/3000.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3002,
+        "name": "Seattle Reign FC W",
+        "logo": "https://media.api-sports.io/football/teams/3002.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1168651,
+      "referee": "B. Jensen",
+      "timezone": "UTC",
+      "date": "2024-10-19T02:00:00+00:00",
+      "timestamp": 1729303200,
+      "periods": {
+        "first": 1729303200,
+        "second": 1729306800
+      },
+      "venue": {
+        "id": 11534,
+        "name": "Lumen Field",
+        "city": "Seattle, Washington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3002,
+        "name": "Seattle Reign FC W",
+        "logo": "https://media.api-sports.io/football/teams/3002.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2998,
+        "name": "Houston Dash W",
+        "logo": "https://media.api-sports.io/football/teams/2998.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1168648,
+      "referee": "E. Osmanovic",
+      "timezone": "UTC",
+      "date": "2024-10-13T21:00:00+00:00",
+      "timestamp": 1728853200,
+      "periods": {
+        "first": 1728853200,
+        "second": 1728856800
+      },
+      "venue": {
+        "id": 19223,
+        "name": "America First Field",
+        "city": "Sandy, Utah"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3004,
+        "name": "Utah Royals W",
+        "logo": "https://media.api-sports.io/football/teams/3004.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3002,
+        "name": "Seattle Reign FC W",
+        "logo": "https://media.api-sports.io/football/teams/3002.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1168638,
+      "referee": "M. Thompson",
+      "timezone": "UTC",
+      "date": "2024-10-05T02:00:00+00:00",
+      "timestamp": 1728093600,
+      "periods": {
+        "first": 1728093600,
+        "second": 1728097200
+      },
+      "venue": {
+        "id": 11534,
+        "name": "Lumen Field",
+        "city": "Seattle, Washington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3002,
+        "name": "Seattle Reign FC W",
+        "logo": "https://media.api-sports.io/football/teams/3002.png",
+        "winner": false
+      },
+      "away": {
+        "id": 18450,
+        "name": "Angel City W",
+        "logo": "https://media.api-sports.io/football/teams/18450.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1168635,
+      "referee": "E. Garcia",
+      "timezone": "UTC",
+      "date": "2024-09-29T22:00:00+00:00",
+      "timestamp": 1727647200,
+      "periods": {
+        "first": 1727647200,
+        "second": 1727650800
+      },
+      "venue": {
+        "id": 11534,
+        "name": "Lumen Field",
+        "city": "Seattle, Washington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3002,
+        "name": "Seattle Reign FC W",
+        "logo": "https://media.api-sports.io/football/teams/3002.png",
+        "winner": false
+      },
+      "away": {
+        "id": 22943,
+        "name": "Bay FC W",
+        "logo": "https://media.api-sports.io/football/teams/22943.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1168626,
+      "referee": "J. Padilla",
+      "timezone": "UTC",
+      "date": "2024-09-22T00:30:00+00:00",
+      "timestamp": 1726965000,
+      "periods": {
+        "first": 1726965000,
+        "second": 1726968600
+      },
+      "venue": {
+        "id": 19418,
+        "name": "Shell Energy Stadium",
+        "city": "Houston, Texas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2998,
+        "name": "Houston Dash W",
+        "logo": "https://media.api-sports.io/football/teams/2998.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3002,
+        "name": "Seattle Reign FC W",
+        "logo": "https://media.api-sports.io/football/teams/3002.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1168622,
+      "referee": "S. Tehini",
+      "timezone": "UTC",
+      "date": "2024-09-17T02:00:00+00:00",
+      "timestamp": 1726538400,
+      "periods": {
+        "first": 1726538400,
+        "second": 1726542000
+      },
+      "venue": {
+        "id": 11534,
+        "name": "Lumen Field",
+        "city": "Seattle, Washington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3002,
+        "name": "Seattle Reign FC W",
+        "logo": "https://media.api-sports.io/football/teams/3002.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3003,
+        "name": "NJ/NY Gotham FC W",
+        "logo": "https://media.api-sports.io/football/teams/3003.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1168609,
+      "referee": "T. Wiseman",
+      "timezone": "UTC",
+      "date": "2024-09-07T02:00:00+00:00",
+      "timestamp": 1725674400,
+      "periods": {
+        "first": 1725674400,
+        "second": 1725678000
+      },
+      "venue": {
+        "id": 19419,
+        "name": "BMO Stadium",
+        "city": "Los Angeles, California"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 18450,
+        "name": "Angel City W",
+        "logo": "https://media.api-sports.io/football/teams/18450.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3002,
+        "name": "Seattle Reign FC W",
+        "logo": "https://media.api-sports.io/football/teams/3002.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1168603,
+      "referee": "L. Rodriguez",
+      "timezone": "UTC",
+      "date": "2024-08-31T23:30:00+00:00",
+      "timestamp": 1725147000,
+      "periods": {
+        "first": 1725147000,
+        "second": 1725150600
+      },
+      "venue": {
+        "id": 3051,
+        "name": "Lynn Family Stadium",
+        "city": "Louisville, Kentucky"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16488,
+        "name": "Racing Louisville W",
+        "logo": "https://media.api-sports.io/football/teams/16488.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3002,
+        "name": "Seattle Reign FC W",
+        "logo": "https://media.api-sports.io/football/teams/3002.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1168600,
+      "referee": "G. Dopka",
+      "timezone": "UTC",
+      "date": "2024-08-26T02:00:00+00:00",
+      "timestamp": 1724637600,
+      "periods": {
+        "first": 1724637600,
+        "second": 1724641200
+      },
+      "venue": {
+        "id": 11534,
+        "name": "Lumen Field",
+        "city": "Seattle, Washington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3002,
+        "name": "Seattle Reign FC W",
+        "logo": "https://media.api-sports.io/football/teams/3002.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2999,
+        "name": "North Carolina Courage W",
+        "logo": "https://media.api-sports.io/football/teams/2999.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150152,
+      "referee": "M. Corrigan",
+      "timezone": "UTC",
+      "date": "2024-10-27T00:00:00+00:00",
+      "timestamp": 1729987200,
+      "periods": {
+        "first": 1729987200,
+        "second": 1729990800
+      },
+      "venue": {
+        "id": 3060,
+        "name": "Highmark Stadium",
+        "city": "Pittsburgh, Pennsylvania"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 40",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4010,
+        "name": "Pittsburgh Riverhounds",
+        "logo": "https://media.api-sports.io/football/teams/4010.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150143,
+      "referee": "J. Surgan",
+      "timezone": "UTC",
+      "date": "2024-10-20T01:00:00+00:00",
+      "timestamp": 1729386000,
+      "periods": {
+        "first": 1729386000,
+        "second": 1729389600
+      },
+      "venue": {
+        "id": 3046,
+        "name": "Southwest University Park",
+        "city": "El Paso"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 40",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4015,
+        "name": "Sacramento Republic",
+        "logo": "https://media.api-sports.io/football/teams/4015.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150137,
+      "referee": "B. Stevis",
+      "timezone": "UTC",
+      "date": "2024-10-17T01:00:00+00:00",
+      "timestamp": 1729126800,
+      "periods": {
+        "first": 1729126800,
+        "second": 1729130400
+      },
+      "venue": {
+        "id": 3046,
+        "name": "Southwest University Park",
+        "city": "El Paso"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 39",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4007,
+        "name": "Orange County SC",
+        "logo": "https://media.api-sports.io/football/teams/4007.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150124,
+      "referee": "S. Berna Rico",
+      "timezone": "UTC",
+      "date": "2024-10-10T01:00:00+00:00",
+      "timestamp": 1728522000,
+      "periods": {
+        "first": 1728522000,
+        "second": 1728525600
+      },
+      "venue": {
+        "id": 3046,
+        "name": "Southwest University Park",
+        "city": "El Paso"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 38",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4017,
+        "name": "San Antonio",
+        "logo": "https://media.api-sports.io/football/teams/4017.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150117,
+      "referee": "J. Scheer",
+      "timezone": "UTC",
+      "date": "2024-10-06T00:30:00+00:00",
+      "timestamp": 1728174600,
+      "periods": {
+        "first": 1728174600,
+        "second": 1728178200
+      },
+      "venue": {
+        "id": 3070,
+        "name": "ONEOK Field",
+        "city": "Tulsa, Oklahoma"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 37",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4022,
+        "name": "FC Tulsa",
+        "logo": "https://media.api-sports.io/football/teams/4022.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150107,
+      "referee": "M. Hassan",
+      "timezone": "UTC",
+      "date": "2024-09-28T19:00:00+00:00",
+      "timestamp": 1727550000,
+      "periods": {
+        "first": 1727550000,
+        "second": 1727553600
+      },
+      "venue": {
+        "id": 3046,
+        "name": "Southwest University Park",
+        "city": "El Paso"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 35",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4005,
+        "name": "North Carolina",
+        "logo": "https://media.api-sports.io/football/teams/4005.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150094,
+      "referee": "N. Bensalah",
+      "timezone": "UTC",
+      "date": "2024-09-22T01:00:00+00:00",
+      "timestamp": 1726966800,
+      "periods": {
+        "first": 1726966800,
+        "second": 1726970400
+      },
+      "venue": {
+        "id": 3046,
+        "name": "Southwest University Park",
+        "city": "El Paso"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 34",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3992,
+        "name": "Colorado Springs",
+        "logo": "https://media.api-sports.io/football/teams/3992.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150082,
+      "referee": "S. Demianchuk",
+      "timezone": "UTC",
+      "date": "2024-09-14T23:00:00+00:00",
+      "timestamp": 1726354800,
+      "periods": {
+        "first": 1726354800,
+        "second": 1726358400
+      },
+      "venue": {
+        "id": 19452,
+        "name": "Michael A. Carroll Stadium",
+        "city": "Indianapolis, Indiana"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3996,
+        "name": "Indy Eleven",
+        "logo": "https://media.api-sports.io/football/teams/3996.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150072,
+      "referee": "L. Arroyo",
+      "timezone": "UTC",
+      "date": "2024-09-08T01:00:00+00:00",
+      "timestamp": 1725757200,
+      "periods": {
+        "first": 1725757200,
+        "second": 1725760800
+      },
+      "venue": {
+        "id": 3046,
+        "name": "Southwest University Park",
+        "city": "El Paso"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": null
+      },
+      "away": {
+        "id": 9043,
+        "name": "Detroit City",
+        "logo": "https://media.api-sports.io/football/teams/9043.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150054,
+      "referee": "B. Meyer",
+      "timezone": "UTC",
+      "date": "2024-08-25T02:00:00+00:00",
+      "timestamp": 1724551200,
+      "periods": {
+        "first": 1724551200,
+        "second": 1724554800
+      },
+      "venue": {
+        "id": 18522,
+        "name": "Cardinale Stadium",
+        "city": "Seaside, California"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 30",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 18375,
+        "name": "Monterey Bay",
+        "logo": "https://media.api-sports.io/football/teams/18375.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150154,
+      "referee": "M. Hassan",
+      "timezone": "UTC",
+      "date": "2024-10-27T01:00:00+00:00",
+      "timestamp": 1729990800,
+      "periods": {
+        "first": 1729990800,
+        "second": 1729994400
+      },
+      "venue": {
+        "id": 3070,
+        "name": "ONEOK Field",
+        "city": "Tulsa, Oklahoma"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 41",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4022,
+        "name": "FC Tulsa",
+        "logo": "https://media.api-sports.io/football/teams/4022.png",
+        "winner": true
+      },
+      "away": {
+        "id": 18375,
+        "name": "Monterey Bay",
+        "logo": "https://media.api-sports.io/football/teams/18375.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150144,
+      "referee": "E. Garcia",
+      "timezone": "UTC",
+      "date": "2024-10-19T22:00:00+00:00",
+      "timestamp": 1729375200,
+      "periods": {
+        "first": 1729375200,
+        "second": 1729378800
+      },
+      "venue": {
+        "id": 3070,
+        "name": "ONEOK Field",
+        "city": "Tulsa, Oklahoma"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 39",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4022,
+        "name": "FC Tulsa",
+        "logo": "https://media.api-sports.io/football/teams/4022.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3995,
+        "name": "Hartford Athletic",
+        "logo": "https://media.api-sports.io/football/teams/3995.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150133,
+      "referee": "J. Encarnación",
+      "timezone": "UTC",
+      "date": "2024-10-13T00:30:00+00:00",
+      "timestamp": 1728779400,
+      "periods": {
+        "first": 1728779400,
+        "second": 1728783000
+      },
+      "venue": {
+        "id": 3070,
+        "name": "ONEOK Field",
+        "city": "Tulsa, Oklahoma"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 39",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4022,
+        "name": "FC Tulsa",
+        "logo": "https://media.api-sports.io/football/teams/4022.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4003,
+        "name": "New Mexico United",
+        "logo": "https://media.api-sports.io/football/teams/4003.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150123,
+      "referee": "J. Matto",
+      "timezone": "UTC",
+      "date": "2024-10-09T23:00:00+00:00",
+      "timestamp": 1728514800,
+      "periods": {
+        "first": 1728514800,
+        "second": 1728518400
+      },
+      "venue": {
+        "id": 11588,
+        "name": "WakeMed Soccer Park",
+        "city": "Cary, North Carolina"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 37",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4005,
+        "name": "North Carolina",
+        "logo": "https://media.api-sports.io/football/teams/4005.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4022,
+        "name": "FC Tulsa",
+        "logo": "https://media.api-sports.io/football/teams/4022.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150108,
+      "referee": "T. Snyder",
+      "timezone": "UTC",
+      "date": "2024-09-29T22:00:00+00:00",
+      "timestamp": 1727647200,
+      "periods": {
+        "first": 1727647200,
+        "second": 1727650800
+      },
+      "venue": {
+        "id": 20450,
+        "name": "Pioneer Stadium",
+        "city": "Hayward, California"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 36",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10874,
+        "name": "Oakland Roots",
+        "logo": "https://media.api-sports.io/football/teams/10874.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4022,
+        "name": "FC Tulsa",
+        "logo": "https://media.api-sports.io/football/teams/4022.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150188,
+      "referee": "A. Kilpatrick",
+      "timezone": "UTC",
+      "date": "2024-09-21T23:30:00+00:00",
+      "timestamp": 1726961400,
+      "periods": {
+        "first": 1726961400,
+        "second": 1726965000
+      },
+      "venue": {
+        "id": 20492,
+        "name": "Beirne Stadium",
+        "city": "Smithfield, Rhode Island"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 34",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22855,
+        "name": "Rhode Island",
+        "logo": "https://media.api-sports.io/football/teams/22855.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4022,
+        "name": "FC Tulsa",
+        "logo": "https://media.api-sports.io/football/teams/4022.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150083,
+      "referee": "B. Jensen",
+      "timezone": "UTC",
+      "date": "2024-09-15T00:30:00+00:00",
+      "timestamp": 1726360200,
+      "periods": {
+        "first": 1726360200,
+        "second": 1726363800
+      },
+      "venue": {
+        "id": 3070,
+        "name": "ONEOK Field",
+        "city": "Tulsa, Oklahoma"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4022,
+        "name": "FC Tulsa",
+        "logo": "https://media.api-sports.io/football/teams/4022.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4000,
+        "name": "Louisville City",
+        "logo": "https://media.api-sports.io/football/teams/4000.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150077,
+      "referee": "A. Ndiaye",
+      "timezone": "UTC",
+      "date": "2024-09-12T00:30:00+00:00",
+      "timestamp": 1726101000,
+      "periods": {
+        "first": 1726101000,
+        "second": 1726104600
+      },
+      "venue": {
+        "id": 3070,
+        "name": "ONEOK Field",
+        "city": "Tulsa, Oklahoma"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4022,
+        "name": "FC Tulsa",
+        "logo": "https://media.api-sports.io/football/teams/4022.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3998,
+        "name": "Las Vegas Lights",
+        "logo": "https://media.api-sports.io/football/teams/3998.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1150067,
+      "referee": "R. Fierro",
+      "timezone": "UTC",
+      "date": "2024-09-07T03:00:00+00:00",
+      "timestamp": 1725678000,
+      "periods": {
+        "first": 1725678000,
+        "second": 1725681600
+      },
+      "venue": {
+        "id": 19706,
+        "name": "Phoenix Rising Stadium at 38th St/Washington",
+        "city": "Phoenix, Arizona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2024,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4009,
+        "name": "Phoenix Rising",
+        "logo": "https://media.api-sports.io/football/teams/4009.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4022,
+        "name": "FC Tulsa",
+        "logo": "https://media.api-sports.io/football/teams/4022.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314714,
+      "referee": "R. Villanueva",
+      "timezone": "UTC",
+      "date": "2024-11-09T20:00:00+00:00",
+      "timestamp": 1731182400,
+      "periods": {
+        "first": 1731182400,
+        "second": 1731186000
+      },
+      "venue": {
+        "id": 2597,
+        "name": "ATCO Field",
+        "city": "Calgary, Alberta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2024,
+      "round": "Grand Final",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3830,
+        "name": "Forge",
+        "logo": "https://media.api-sports.io/football/teams/3830.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1312332,
+      "referee": "Y. Rudolf",
+      "timezone": "UTC",
+      "date": "2024-10-27T20:00:00+00:00",
+      "timestamp": 1730059200,
+      "periods": {
+        "first": 1730059200,
+        "second": 1730062800
+      },
+      "venue": {
+        "id": 2602,
+        "name": "Tim Hortons Field",
+        "city": "Hamilton"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2024,
+      "round": "R79396",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3830,
+        "name": "Forge",
+        "logo": "https://media.api-sports.io/football/teams/3830.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1167356,
+      "referee": "Y. Rudolf",
+      "timezone": "UTC",
+      "date": "2024-10-19T20:00:00+00:00",
+      "timestamp": 1729368000,
+      "periods": {
+        "first": 1729368000,
+        "second": 1729371600
+      },
+      "venue": {
+        "id": 21643,
+        "name": "Princess Auto Stadium",
+        "city": "Winnipeg, Manitoba"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2024,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3831,
+        "name": "Valour",
+        "logo": "https://media.api-sports.io/football/teams/3831.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1167352,
+      "referee": "R. Villanueva",
+      "timezone": "UTC",
+      "date": "2024-10-12T23:00:00+00:00",
+      "timestamp": 1728774000,
+      "periods": {
+        "first": 1728774000,
+        "second": 1728777600
+      },
+      "venue": {
+        "id": 2597,
+        "name": "ATCO Field",
+        "city": "Calgary, Alberta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2024,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2621,
+        "name": "HFX Wanderers FC",
+        "logo": "https://media.api-sports.io/football/teams/2621.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1167347,
+      "referee": "M. Souaré",
+      "timezone": "UTC",
+      "date": "2024-10-05T21:00:00+00:00",
+      "timestamp": 1728162000,
+      "periods": {
+        "first": 1728162000,
+        "second": 1728165600
+      },
+      "venue": {
+        "id": 19444,
+        "name": "Starlight Stadium",
+        "city": "Victoria, British Columbia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2024,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2622,
+        "name": "Pacific FC",
+        "logo": "https://media.api-sports.io/football/teams/2622.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1167343,
+      "referee": "S. Noshinravani",
+      "timezone": "UTC",
+      "date": "2024-09-28T23:00:00+00:00",
+      "timestamp": 1727564400,
+      "periods": {
+        "first": 1727564400,
+        "second": 1727568000
+      },
+      "venue": {
+        "id": 2597,
+        "name": "ATCO Field",
+        "city": "Calgary, Alberta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2024,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": null
+      },
+      "away": {
+        "id": 20881,
+        "name": "Vancouver FC",
+        "logo": "https://media.api-sports.io/football/teams/20881.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1167338,
+      "referee": "S. Bowman",
+      "timezone": "UTC",
+      "date": "2024-09-21T00:00:00+00:00",
+      "timestamp": 1726876800,
+      "periods": {
+        "first": 1726876800,
+        "second": 1726880400
+      },
+      "venue": {
+        "id": 2601,
+        "name": "York Lions Stadium",
+        "city": "Toronto, Ontario"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2024,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2623,
+        "name": "York United",
+        "logo": "https://media.api-sports.io/football/teams/2623.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1167337,
+      "referee": "M. Marcotte",
+      "timezone": "UTC",
+      "date": "2024-09-15T21:00:00+00:00",
+      "timestamp": 1726434000,
+      "periods": {
+        "first": 1726434000,
+        "second": 1726437600
+      },
+      "venue": {
+        "id": 2597,
+        "name": "ATCO Field",
+        "city": "Calgary, Alberta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2024,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": null
+      },
+      "away": {
+        "id": 10169,
+        "name": "Atlético Ottawa",
+        "logo": "https://media.api-sports.io/football/teams/10169.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1167331,
+      "referee": "M. Venne",
+      "timezone": "UTC",
+      "date": "2024-09-07T23:00:00+00:00",
+      "timestamp": 1725750000,
+      "periods": {
+        "first": 1725750000,
+        "second": 1725753600
+      },
+      "venue": {
+        "id": 2602,
+        "name": "Tim Hortons Field",
+        "city": "Hamilton"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2024,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3830,
+        "name": "Forge",
+        "logo": "https://media.api-sports.io/football/teams/3830.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1167327,
+      "referee": "S. Bowman",
+      "timezone": "UTC",
+      "date": "2024-08-31T01:30:00+00:00",
+      "timestamp": 1725067800,
+      "periods": {
+        "first": 1725067800,
+        "second": 1725071400
+      },
+      "venue": {
+        "id": 2597,
+        "name": "ATCO Field",
+        "city": "Calgary, Alberta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2024,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3831,
+        "name": "Valour",
+        "logo": "https://media.api-sports.io/football/teams/3831.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1372442,
+      "referee": "A. Ballesteros Barba",
+      "timezone": "UTC",
+      "date": "2025-04-27T00:00:00+00:00",
+      "timestamp": 1745712000,
+      "periods": {
+        "first": 1745712000,
+        "second": 1745715600
+      },
+      "venue": {
+        "id": 1794,
+        "name": "Estadio Agustín Coruco Díaz",
+        "city": "Zacatepec"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansión MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - Quarter-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2312,
+        "name": "Atlante FC",
+        "logo": "https://media.api-sports.io/football/teams/2312.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2284,
+        "name": "Monarcas",
+        "logo": "https://media.api-sports.io/football/teams/2284.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1372441,
+      "referee": "D. Gurrea",
+      "timezone": "UTC",
+      "date": "2025-04-24T01:10:00+00:00",
+      "timestamp": 1745457000,
+      "periods": {
+        "first": 1745457000,
+        "second": 1745460600
+      },
+      "venue": {
+        "id": 1972,
+        "name": "Estadio Generalísimo José María Morelos y Pavón",
+        "city": "Morelia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansión MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - Quarter-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2284,
+        "name": "Monarcas",
+        "logo": "https://media.api-sports.io/football/teams/2284.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2312,
+        "name": "Atlante FC",
+        "logo": "https://media.api-sports.io/football/teams/2312.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1325787,
+      "referee": "M. López Sánchez",
+      "timezone": "UTC",
+      "date": "2025-04-20T01:00:00+00:00",
+      "timestamp": 1745110800,
+      "periods": {
+        "first": 1745110800,
+        "second": 1745114400
+      },
+      "venue": {
+        "id": 1086,
+        "name": "Estadio Tamaulipas",
+        "city": "Tampico y Ciudad Madero"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansión MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19905,
+        "name": "CDS Tampico Madero",
+        "logo": "https://media.api-sports.io/football/teams/19905.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2312,
+        "name": "Atlante FC",
+        "logo": "https://media.api-sports.io/football/teams/2312.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1325779,
+      "referee": "J. Vizcarra Armenta",
+      "timezone": "UTC",
+      "date": "2025-04-12T23:00:00+00:00",
+      "timestamp": 1744498800,
+      "periods": {
+        "first": 1744498800,
+        "second": 1744502400
+      },
+      "venue": {
+        "id": 1794,
+        "name": "Estadio Agustín Coruco Díaz",
+        "city": "Zacatepec"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansión MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2312,
+        "name": "Atlante FC",
+        "logo": "https://media.api-sports.io/football/teams/2312.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2299,
+        "name": "Mineros de Zacatecas",
+        "logo": "https://media.api-sports.io/football/teams/2299.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1325768,
+      "referee": "Y. Peinado Aguirre",
+      "timezone": "UTC",
+      "date": "2025-04-04T01:00:00+00:00",
+      "timestamp": 1743728400,
+      "periods": {
+        "first": 1743728400,
+        "second": 1743732000
+      },
+      "venue": {
+        "id": 1073,
+        "name": "Estadio Olímpico Ing. Marte R. Gómez",
+        "city": "Ciudad Victoria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansión MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2313,
+        "name": "Correcaminos Uat",
+        "logo": "https://media.api-sports.io/football/teams/2313.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2312,
+        "name": "Atlante FC",
+        "logo": "https://media.api-sports.io/football/teams/2312.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1325763,
+      "referee": "E. Ramírez",
+      "timezone": "UTC",
+      "date": "2025-03-29T23:00:00+00:00",
+      "timestamp": 1743289200,
+      "periods": {
+        "first": 1743289200,
+        "second": 1743292800
+      },
+      "venue": {
+        "id": 1794,
+        "name": "Estadio Agustín Coruco Díaz",
+        "city": "Zacatepec"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansión MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2312,
+        "name": "Atlante FC",
+        "logo": "https://media.api-sports.io/football/teams/2312.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14276,
+        "name": "Cancún",
+        "logo": "https://media.api-sports.io/football/teams/14276.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1325756,
+      "referee": "J. Vizcarra Armenta",
+      "timezone": "UTC",
+      "date": "2025-03-20T01:00:00+00:00",
+      "timestamp": 1742432400,
+      "periods": {
+        "first": 1742432400,
+        "second": 1742436000
+      },
+      "venue": {
+        "id": 1071,
+        "name": "Estadio Jalisco",
+        "city": "Guadalajara"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansión MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14278,
+        "name": "Tapatío",
+        "logo": "https://media.api-sports.io/football/teams/14278.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2312,
+        "name": "Atlante FC",
+        "logo": "https://media.api-sports.io/football/teams/2312.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1325742,
+      "referee": "Y. Peinado Aguirre",
+      "timezone": "UTC",
+      "date": "2025-03-08T23:00:00+00:00",
+      "timestamp": 1741474800,
+      "periods": {
+        "first": 1741474800,
+        "second": 1741478400
+      },
+      "venue": {
+        "id": 1794,
+        "name": "Estadio Agustín Coruco Díaz",
+        "city": "Zacatepec"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansión MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2312,
+        "name": "Atlante FC",
+        "logo": "https://media.api-sports.io/football/teams/2312.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2307,
+        "name": "Leones Negros UDG",
+        "logo": "https://media.api-sports.io/football/teams/2307.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1325738,
+      "referee": "A. Ballesteros Barba",
+      "timezone": "UTC",
+      "date": "2025-03-02T03:05:00+00:00",
+      "timestamp": 1740884700,
+      "periods": {
+        "first": 1740884700,
+        "second": 1740888300
+      },
+      "venue": {
+        "id": 1088,
+        "name": "Estadio Caliente",
+        "city": "Tijuana"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansión MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2297,
+        "name": "Dorados",
+        "logo": "https://media.api-sports.io/football/teams/2297.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2312,
+        "name": "Atlante FC",
+        "logo": "https://media.api-sports.io/football/teams/2312.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1325728,
+      "referee": "J. Vizcarra Armenta",
+      "timezone": "UTC",
+      "date": "2025-02-22T23:00:00+00:00",
+      "timestamp": 1740265200,
+      "periods": {
+        "first": 1740265200,
+        "second": 1740268800
+      },
+      "venue": {
+        "id": 1794,
+        "name": "Estadio Agustín Coruco Díaz",
+        "city": "Zacatepec"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansión MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2312,
+        "name": "Atlante FC",
+        "logo": "https://media.api-sports.io/football/teams/2312.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14280,
+        "name": "Tlaxcala",
+        "logo": "https://media.api-sports.io/football/teams/14280.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1374343,
+      "referee": "F. Hernández",
+      "timezone": "UTC",
+      "date": "2025-05-11T01:00:00+00:00",
+      "timestamp": 1746925200,
+      "periods": {
+        "first": 1746925200,
+        "second": 1746928800
+      },
+      "venue": {
+        "id": 1089,
+        "name": "Estadio Nemesio Díez",
+        "city": "Toluca de Lerdo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - Quarter-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2281,
+        "name": "Toluca",
+        "logo": "https://media.api-sports.io/football/teams/2281.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2282,
+        "name": "Monterrey",
+        "logo": "https://media.api-sports.io/football/teams/2282.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1374342,
+      "referee": "G. Pacheco",
+      "timezone": "UTC",
+      "date": "2025-05-08T01:00:00+00:00",
+      "timestamp": 1746666000,
+      "periods": {
+        "first": 1746666000,
+        "second": 1746669600
+      },
+      "venue": {
+        "id": 11905,
+        "name": "Estadio BBVA",
+        "city": "Guadalupe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - Quarter-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2282,
+        "name": "Monterrey",
+        "logo": "https://media.api-sports.io/football/teams/2282.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2281,
+        "name": "Toluca",
+        "logo": "https://media.api-sports.io/football/teams/2281.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1373369,
+      "referee": "A. Escobedo",
+      "timezone": "UTC",
+      "date": "2025-05-05T01:30:00+00:00",
+      "timestamp": 1746408600,
+      "periods": {
+        "first": 1746408600,
+        "second": 1746412200
+      },
+      "venue": {
+        "id": 11905,
+        "name": "Estadio BBVA",
+        "city": "Guadalupe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - Play-offs",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2282,
+        "name": "Monterrey",
+        "logo": "https://media.api-sports.io/football/teams/2282.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2286,
+        "name": "U.N.A.M. - Pumas",
+        "logo": "https://media.api-sports.io/football/teams/2286.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1372469,
+      "referee": "L. Santander",
+      "timezone": "UTC",
+      "date": "2025-04-28T01:30:00+00:00",
+      "timestamp": 1745803800,
+      "periods": {
+        "first": 1745803800,
+        "second": 1745807400
+      },
+      "venue": {
+        "id": 11905,
+        "name": "Estadio BBVA",
+        "city": "Guadalupe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - Reclasificacion",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2282,
+        "name": "Monterrey",
+        "logo": "https://media.api-sports.io/football/teams/2282.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2292,
+        "name": "CF Pachuca",
+        "logo": "https://media.api-sports.io/football/teams/2292.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1323623,
+      "referee": "A. Escobedo",
+      "timezone": "UTC",
+      "date": "2025-04-21T01:05:00+00:00",
+      "timestamp": 1745197500,
+      "periods": {
+        "first": 1745197500,
+        "second": 1745201100
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio León",
+        "city": "León de los Aldamas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2289,
+        "name": "Leon",
+        "logo": "https://media.api-sports.io/football/teams/2289.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2282,
+        "name": "Monterrey",
+        "logo": "https://media.api-sports.io/football/teams/2282.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1323615,
+      "referee": "D. Quintero",
+      "timezone": "UTC",
+      "date": "2025-04-17T01:00:00+00:00",
+      "timestamp": 1744851600,
+      "periods": {
+        "first": 1744851600,
+        "second": 1744855200
+      },
+      "venue": {
+        "id": 11905,
+        "name": "Estadio BBVA",
+        "city": "Guadalupe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2282,
+        "name": "Monterrey",
+        "logo": "https://media.api-sports.io/football/teams/2282.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2287,
+        "name": "Club America",
+        "logo": "https://media.api-sports.io/football/teams/2287.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1323605,
+      "referee": "M. Ortíz",
+      "timezone": "UTC",
+      "date": "2025-04-13T01:00:00+00:00",
+      "timestamp": 1744506000,
+      "periods": {
+        "first": 1744506000,
+        "second": 1744509600
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Universitario",
+        "city": "San Nicolás de los Garza"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2279,
+        "name": "Tigres UANL",
+        "logo": "https://media.api-sports.io/football/teams/2279.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2282,
+        "name": "Monterrey",
+        "logo": "https://media.api-sports.io/football/teams/2282.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1323596,
+      "referee": "G. Pacheco",
+      "timezone": "UTC",
+      "date": "2025-04-06T01:05:00+00:00",
+      "timestamp": 1743901500,
+      "periods": {
+        "first": 1743901500,
+        "second": 1743905100
+      },
+      "venue": {
+        "id": 11905,
+        "name": "Estadio BBVA",
+        "city": "Guadalupe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2282,
+        "name": "Monterrey",
+        "logo": "https://media.api-sports.io/football/teams/2282.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2278,
+        "name": "Guadalajara Chivas",
+        "logo": "https://media.api-sports.io/football/teams/2278.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1323588,
+      "referee": "L. Santander",
+      "timezone": "UTC",
+      "date": "2025-03-30T03:15:00+00:00",
+      "timestamp": 1743304500,
+      "periods": {
+        "first": 1743304500,
+        "second": 1743308100
+      },
+      "venue": {
+        "id": 11905,
+        "name": "Estadio BBVA",
+        "city": "Guadalupe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2282,
+        "name": "Monterrey",
+        "logo": "https://media.api-sports.io/football/teams/2282.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2280,
+        "name": "Club Tijuana",
+        "logo": "https://media.api-sports.io/football/teams/2280.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1323793,
+      "referee": "I. Lopez",
+      "timezone": "UTC",
+      "date": "2025-03-17T00:00:00+00:00",
+      "timestamp": 1742169600,
+      "periods": {
+        "first": 1742169600,
+        "second": 1742173200
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Olímpico Universitario",
+        "city": "D.F."
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2024,
+      "round": "Clausura - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2286,
+        "name": "U.N.A.M. - Pumas",
+        "logo": "https://media.api-sports.io/football/teams/2286.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2282,
+        "name": "Monterrey",
+        "logo": "https://media.api-sports.io/football/teams/2282.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
   }
 ]

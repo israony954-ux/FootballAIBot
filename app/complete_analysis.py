@@ -16,7 +16,7 @@ def temporada_atual():
     dois anos, o ajuste específico poderá ser
     feito posteriormente por competição.
     """
-    return datetime.now().year
+    return 2024
 
 
 def analisar_completo(
