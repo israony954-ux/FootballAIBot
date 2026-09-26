@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from app.football_api import FootballAPI
-from app.history import ultimos_jogos_do_time
+from app.history import ultimos_jogos_do_time, salvar_jogo
 from app.match_analysis import analisar_confronto
 from app.h2h import buscar_h2h, analisar_h2h
 from app.team_stats import calcular_estatisticas
@@ -36,9 +36,11 @@ def analisar_completo(
 
     if not jogos_casa:
         jogos_casa = api.ultimos_jogos(id_casa, 10, temporada)
+        for jogo in jogos_casa: salvar_jogo(jogo)
 
     if not jogos_fora:
         jogos_fora = api.ultimos_jogos(id_fora, 10, temporada)
+        for jogo in jogos_fora: salvar_jogo(jogo)
 
     analise = analisar_confronto(
         jogos_casa,
