@@ -212,8 +212,9 @@ class FootballAPI:
         self,
         team_id,
         limite=10,
-        temporada=None
+        temporada=2024
     ):
+
         jogos = self._get(
             "fixtures",
             {
