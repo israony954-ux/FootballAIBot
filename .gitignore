@@ -6,3 +6,6 @@ __pycache__/
 data/api cache/
 
 data/api cache/*
+
+# Cache local da API
+/data/api_cache/

@@ -16,7 +16,7 @@ def temporada_atual():
     dois anos, o ajuste específico poderá ser
     feito posteriormente por competição.
     """
-    return 2024
+    return datetime.now().year
 
 
 def analisar_completo(
@@ -35,18 +35,27 @@ def analisar_completo(
     jogos_fora = ultimos_jogos_do_time(id_fora, 10)
 
     if not jogos_casa:
-        jogos_casa = api.ultimos_jogos(id_casa, 10, temporada)
-        for jogo in jogos_casa: salvar_jogo(jogo)
+        try:
+            jogos_casa = api.ultimos_jogos(id_casa, 10, temporada)
+        except Exception:
+            jogos_casa = api.ultimos_jogos(id_casa, 10, 2024)
+        for jogo in jogos_casa:
+            salvar_jogo(jogo)
 
     if not jogos_fora:
-        jogos_fora = api.ultimos_jogos(id_fora, 10, temporada)
-        for jogo in jogos_fora: salvar_jogo(jogo)
+        try:
+            jogos_fora = api.ultimos_jogos(id_fora, 10, temporada)
+        except Exception:
+            jogos_fora = api.ultimos_jogos(id_fora, 10, 2024)
+        for jogo in jogos_fora:
+            salvar_jogo(jogo)
 
     analise = analisar_confronto(
         jogos_casa,
         jogos_fora,
         id_casa,
-        id_fora
+        id_fora,
+        api
     )
 
     h2h = buscar_h2h(

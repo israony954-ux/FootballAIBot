@@ -26,7 +26,10 @@ def ajustar_por_forca(media, forca, ataque=True):
     return max(0.15, media * fator)
 
 
-def analisar_confronto(jogos_casa, jogos_fora, id_casa, id_fora):
+def analisar_confronto(jogos_casa, jogos_fora, id_casa, id_fora, api=None):
+    if api is None:
+        from app.football_api import FootballAPI
+        api = FootballAPI()
     stats_casa = calcular_estatisticas(
         jogos_casa,
         id_casa
@@ -59,12 +62,14 @@ def analisar_confronto(jogos_casa, jogos_fora, id_casa, id_fora):
 
     forca_casa = calcular_forca_adversarios(
         jogos_casa,
-        id_casa
+        id_casa,
+        api
     )
 
     forca_fora = calcular_forca_adversarios(
         jogos_fora,
-        id_fora
+        id_fora,
+        api
     )
 
     ataque_casa = (

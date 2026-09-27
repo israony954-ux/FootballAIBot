@@ -1,4 +1,4 @@
-def calcular_forca_adversarios(jogos, team_id):
+def calcular_forca_adversarios(jogos, team_id, api=None):
     """
     Calcula uma estimativa simples da força média dos adversários.
 
@@ -13,6 +13,7 @@ def calcular_forca_adversarios(jogos, team_id):
         }
 
     pontos = []
+    classificacoes = {}
 
     for jogo in jogos:
         try:
@@ -29,6 +30,30 @@ def calcular_forca_adversarios(jogos, team_id):
             # em diferentes endpoints. Por enquanto usamos
             # somente dados disponíveis no próprio confronto.
             ranking = adversario.get("rank")
+
+            if ranking is None and api is not None:
+                liga = jogo.get("league", {})
+                league_id = liga.get("id")
+                temporada = liga.get("season", 2024)
+                chave = (league_id, temporada)
+
+                if league_id is not None:
+                    if chave not in classificacoes:
+                        try:
+                            classificacoes[chave] = api.buscar_classificacao(league_id, temporada)
+                        except Exception:
+                            classificacoes[chave] = []
+
+                    for resposta in classificacoes[chave]:
+                        tabela = resposta.get("league", {}).get("standings", [])
+                        if tabela and isinstance(tabela[0], list):
+                            tabela = tabela[0]
+                        for item in tabela:
+                            if item.get("team", {}).get("id") == adversario.get("id"):
+                                ranking = item.get("rank")
+                                break
+                        if ranking is not None:
+                            break
 
             if ranking is not None:
                 ranking = float(ranking)

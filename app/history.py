@@ -32,7 +32,7 @@ def salvar_jogo(jogo):
     return True
 
 
-def ultimos_jogos_do_time(team_id, limite=10):
+def ultimos_jogos_do_time(team_id, limite=10, temporada=None):
     historico = carregar_historico()
 
     jogos = []
@@ -43,8 +43,17 @@ def ultimos_jogos_do_time(team_id, limite=10):
         casa = times.get("home", {}).get("id")
         fora = times.get("away", {}).get("id")
 
-        if team_id == casa or team_id == fora:
-            jogos.append(jogo)
+        if team_id != casa and team_id != fora:
+            continue
+
+        if temporada is not None:
+            data = jogo.get("fixture", {}).get("date", "")
+            ano = data[:4] if data else ""
+
+            if str(ano) != str(temporada):
+                continue
+
+        jogos.append(jogo)
 
     jogos.sort(
         key=lambda jogo: jogo.get("fixture", {}).get("date", ""),

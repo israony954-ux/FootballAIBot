@@ -1,25 +1,40 @@
 from app.football_api import FootballAPI
 from app.match_analysis import analisar_confronto
+from app.history import ultimos_jogos_do_time
 
 
 def analisar_por_ids(
     id_casa,
     id_fora,
-    temporada=2024
+    temporada=None
 ):
     api = FootballAPI()
 
-    jogos_casa = api.ultimos_jogos(
-        id_casa,
-        10,
-        temporada
-    )
+    try:
+        jogos_casa = api.ultimos_jogos(
+            id_casa,
+            10,
+            temporada
+        )
+    except RuntimeError:
+        jogos_casa = ultimos_jogos_do_time(
+            id_casa,
+            10,
+            temporada
+        )
 
-    jogos_fora = api.ultimos_jogos(
-        id_fora,
-        10,
-        temporada
-    )
+    try:
+        jogos_fora = api.ultimos_jogos(
+            id_fora,
+            10,
+            temporada
+        )
+    except RuntimeError:
+        jogos_fora = ultimos_jogos_do_time(
+            id_fora,
+            10,
+            temporada
+        )
 
     resultado = analisar_confronto(
         jogos_casa,

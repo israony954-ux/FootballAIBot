@@ -79,6 +79,21 @@ class FootballAPI:
         self.ultima_requisicao = time.time()
 
         if resposta.status_code == 429:
+            if os.path.exists(caminho_cache):
+                try:
+                    with open(
+                        caminho_cache,
+                        "r",
+                        encoding="utf-8"
+                    ) as arquivo:
+                        print(
+                            "API LIMITADA - usando cache:",
+                            caminho_cache
+                        )
+                        return json.load(arquivo)
+                except (json.JSONDecodeError, OSError):
+                    pass
+
             raise RuntimeError(
                 "API_FOOTBALL_LIMIT: limite de requisicoes atingido."
             )
@@ -90,6 +105,28 @@ class FootballAPI:
         erros = dados.get("errors")
 
         if erros:
+            erro_texto = str(erros).lower()
+
+            if (
+                "request limit" in erro_texto
+                or "limit for the day" in erro_texto
+                or "rate limit" in erro_texto
+            ):
+                if os.path.exists(caminho_cache):
+                    try:
+                        with open(
+                            caminho_cache,
+                            "r",
+                            encoding="utf-8"
+                        ) as arquivo:
+                            print(
+                                "API LIMITADA - usando cache antigo:",
+                                caminho_cache
+                            )
+                            return json.load(arquivo)
+                    except (json.JSONDecodeError, OSError):
+                        pass
+
             raise RuntimeError(
                 f"Erro da API: {erros}"
             )
@@ -113,10 +150,49 @@ class FootballAPI:
         return self._get(
             "fixtures",
             {"date": data},
-            cache_ttl=300
+            cache_ttl=3600
         )
 
     def buscar_jogo(self, fixture_id):
+        # Procura primeiro em todos os caches locais.
+        fixture_id = str(fixture_id)
+
+        try:
+            for nome in os.listdir(self.CACHE_DIR):
+                if not nome.endswith(".json"):
+                    continue
+
+                caminho = os.path.join(self.CACHE_DIR, nome)
+
+                try:
+                    with open(caminho, "r", encoding="utf-8") as arquivo_cache:
+                        dados = json.load(arquivo_cache)
+                except (json.JSONDecodeError, OSError):
+                    continue
+
+                if isinstance(dados, list):
+                    jogos_cache = dados
+                elif isinstance(dados, dict):
+                    jogos_cache = dados.get("response", [])
+                    if not isinstance(jogos_cache, list):
+                        jogos_cache = [dados]
+                else:
+                    continue
+
+                for jogo in jogos_cache:
+                    if not isinstance(jogo, dict):
+                        continue
+
+                    fid = jogo.get("fixture", {}).get("id")
+
+                    if str(fid) == fixture_id:
+                        print("CACHE LOCAL - jogo encontrado:", fixture_id)
+                        return jogo
+
+        except OSError:
+            pass
+
+        # Se não encontrou no cache, consulta a API.
         jogos = self._get(
             "fixtures",
             {"id": fixture_id},
@@ -125,11 +201,18 @@ class FootballAPI:
 
         return jogos[0] if jogos else None
 
+    def buscar_classificacao(self, league_id, temporada=None):
+        return self._get(
+            "standings",
+            {"league": league_id, "season": temporada},
+            cache_ttl=86400
+        )
+
     def ultimos_jogos(
         self,
         team_id,
         limite=10,
-        temporada=2024
+        temporada=None
     ):
         jogos = self._get(
             "fixtures",

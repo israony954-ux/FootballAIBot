@@ -4,6 +4,7 @@ from app.complete_analysis import analisar_completo
 from app.prediction_history import salvar_previsao
 from app.report import gerar_relatorio
 from app.global_radar import avaliar_jogo
+from app.multiple_runner import executar_multipla
 from datetime import datetime, timezone
 banca = BankrollManager(BankrollConfig(50.0, 100.0, "gestao"))
 
@@ -55,6 +56,11 @@ def gerar_previsao(jogo):
         radar
     )
 
+    return {
+        "jogo": f'{casa["name"]} x {fora["name"]}',
+        "mercados": analise["mercados"],
+    }
+
 
 def buscar_jogos_futuros():
     api = FootballAPI()
@@ -104,9 +110,13 @@ def main():
     print()
     print("JOGOS FUTUROS:", len(futuros))
 
+    analises_multipla = []
+
     for jogo in futuros[:4]:
         try:
-            gerar_previsao(jogo)
+            analise_multipla = gerar_previsao(jogo)
+            if analise_multipla:
+                analises_multipla.append(analise_multipla)
         except Exception as erro:
             print()
             print("ERRO NO JOGO:", jogo.get("fixture", {}).get("id"))
@@ -114,6 +124,14 @@ def main():
             if "API FOOTBALL LIMIT" in str(erro) or "limite de requisicoes atingido" in str(erro):
                 print("API LIMITADA. Encerrando processamento.")
                 break
+
+    if analises_multipla:
+        try:
+            multipla = executar_multipla(analises_multipla)
+            print()
+            print("MULTIPLA GERADA:", multipla)
+        except Exception as erro:
+            print("ERRO AO GERAR MULTIPLA:", erro)
 
 if __name__ == "__main__":
     main()

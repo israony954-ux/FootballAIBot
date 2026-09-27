@@ -18,7 +18,7 @@
   "global_radar": {
     "enabled": true,
     "scan_non_priority_competitions": true,
-    "minimum_data_quality": 70,
+    "minimum_data_quality": 60,
     "minimum_signal_strength": 68
   }
 }
