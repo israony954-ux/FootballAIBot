@@ -38,3 +38,4 @@
 {"timestamp": "2026-09-27T03:04:09.029769+00:00", "fixture_id": 1640062, "time_casa": "Cook Islands", "time_fora": "Tahiti", "mercado": "Under 3.5 gols", "probabilidade": 0.9016589283549732, "qualidade_dados": 55, "resultado_real": null}
 {"timestamp": "2026-09-27T03:09:38.833981+00:00", "fixture_id": 1550979, "time_casa": "Tigres UANL", "time_fora": "Puebla", "mercado": "Under 3.5 gols", "probabilidade": 0.8028937664564149, "qualidade_dados": 60, "resultado_real": null}
 {"timestamp": "2026-09-27T03:09:48.755304+00:00", "fixture_id": 1640505, "time_casa": "Vanuatu", "time_fora": "New Caledonia", "mercado": "Under 3.5 gols", "probabilidade": 0.9037960320112658, "qualidade_dados": 55, "resultado_real": null}
+{"timestamp": "2026-09-27T03:14:47.593066+00:00", "fixture_id": 1640434, "time_casa": "Deren", "time_fora": "Amtat FC", "mercado": "Under 3.5 gols", "probabilidade": 0.7741079211261569, "qualidade_dados": 45, "resultado_real": null}
